@@ -4,7 +4,6 @@ module.exports = {
     "browser": true
   },
   "extends": "eslint-config-airbnb",
-  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
