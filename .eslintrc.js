@@ -4,7 +4,7 @@ module.exports = {
     "browser": true
   },
   "extends": "eslint-config-airbnb",
-  "parser": "typescript-eslint-parser",
+  "parser": "babel-eslint",
   "parserOptions": {
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
@@ -13,8 +13,7 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react",
-    "typescript"
+    "react"
   ],
   "rules": {
     "indent": [
