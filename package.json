@@ -1,0 +1,42 @@
+{
+  "name": "material-ui-kwik-jss",
+  "version": "1.0.0-alpha.1",
+  "description": "Quickly write simple stylesheets in JSS for Material-UI.",
+  "main": "index.js",
+  "author": "Ibrahim Ansari (ansari.ibrahim1@gmail.com)",
+  "license": "LGPL-3.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ibujs/material-ui-kwik-jss.git"
+  },
+  "keywords": [
+    "material-ui",
+    "jss",
+    "npm",
+    "webpack",
+    "typescript",
+    "eslint"
+  ],
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "eslint-plugin-typescript": "^0.1.0",
+    "react": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "typescript": "^2.2.2",
+    "typescript-eslint-parser": "^2.1.0",
+    "webpack": "^2.4.1"
+  },
+  "peerDependencies": {
+    "material-ui": "^1.0.0-alpha.11",
+    "react": ">= 15",
+    "react-dom": ">= 15"
+  }
+}
