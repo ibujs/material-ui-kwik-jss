@@ -1,0 +1,10 @@
+[ignore]
+
+[include]
+
+[libs]
+node_modules/jss/flow-typed
+[options]
+emoji=true
+suppress_comment= \\(.\\|\n\\)*\\flow-disable-next-line
+unsafe.enable_getters_and_setters=true

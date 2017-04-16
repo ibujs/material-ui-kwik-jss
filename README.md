@@ -23,8 +23,6 @@ Oh and (up coming), you will be able to write your stylesheets in CSS :333 (and 
 None at all, it's designed to simply make it simpler and quicker to write JSS and integrate it into your React components using the jss-theme-reactor. It's also designed to provide a better, well-documented API.
 #### Why not build over react-jss or aphrodite?
 The main purpose of this package is to provide a simpler and more well-documented API over the jss-theme-reactor. react-jss is already excessantly simple, and well-documented, and that's why I see any need at all to wrap react-jss. Regarding aphrodite, it is also quite simple due to the vast documentation provided for it, and I don't see any tangible benefit to wrapping aphrodite in a simpler API either. OTOH the jss-theme-reactor could possibly be more well-documented, making it simpler to understand, hence this library. Yes, the theme-reactor is getting unmaintained (Feb 20, last commit) over react-jss and aphrodite significantly but this was originally devloped to cater to material-ui users to make it simpler to access it's APIs. I see no need to deviate from that :stuck_out_tongue:
-#### B...but I want something simpler for aphrodite D:
-[Chill and read this. Simple enough.](https://github.com/Khan/aphrodite/blob/master/README.md)
 #### I'm a material-ui v1.0 user. If this is slightly catered to us, why would I use this over copying from the docs, or over react-jss or aphrodite?
 1. material-ui 1.0 is built on jss-theme-reactor. Maintaining consistency and using the same would be a better option.
 2. Because the API will be designed to be easy-to-use and thus better to remember :stuck_out_tongue:
