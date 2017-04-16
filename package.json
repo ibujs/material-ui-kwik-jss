@@ -1,7 +1,7 @@
 {
   "name": "react-kwik-jss",
   "version": "1.0.0-alpha.1",
-  "description": "Quickly write simple stylesheets in JSS for Material-UI.",
+  "description": "Quickly write simple stylesheets in JSS for React.",
   "main": "index.js",
   "author": "Ibrahim Ansari (ansari.ibrahim1@gmail.com)",
   "license": "LGPL-3.0",
