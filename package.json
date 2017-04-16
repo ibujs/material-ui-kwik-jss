@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibujs/material-ui-kwik-jss.git"
+    "url": "https://github.com/ibujs/react-kwik-jss.git"
   },
   "keywords": [
     "material-ui",
