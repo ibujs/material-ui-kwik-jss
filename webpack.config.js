@@ -2,7 +2,7 @@
 const config = {
   target: "web",
   entry: {
-    index: "./src/index.js",
+    index: "./src/index.tsx",
   },
   output: {
     filename: "[name].js",
@@ -13,14 +13,14 @@ const config = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
-        use: "babel-loader",
+        test: /\.(ts|tsx)$/,
+        use: "ts-loader",
         exclude: /node_modules/,
       },
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx", ".json"],
+    extensions: [".js", ".jsx", ".json", ".ts", ".tsx"],
   },
 };
 

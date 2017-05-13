@@ -20,14 +20,12 @@ yarn add react-kwik-jss
 ## FAQ
 
 ### What's the benefit of adding another package to my package.json over using the jss-theme-reactor?
-Because you spend much less time writing those extra letters, and thus if you want to write smaller code which just works without you needing to know ANYTHING, then this is the thing.  
-Oh and (up coming), you will be able to write your stylesheets in CSS :333 (and in the distant/near future, you should be able to write those stylesheets in a separate CSS file :3)
+Because you spend much less time writing those extra letters, and thus if you want to write smaller code which just works without you needing to know ANYTHING, then this is the thing.
 
 ### Why would you want to do any of that?  
 1. So you write smaller code which just works.  
 2. The jss-theme-reactor README -> you understand nothing? This is just a minimalistic wrapper with a well documented and easy-to-read API over it to write simple stylesheets easily.  
 3. You want to write CSS, because you're uncomfortable with the camel-casey CSS-in-JS? This is your ticket (not so fast, it's a WIP).  
-4. Split your CSS into a separate file :stuck_out_tongue: (again, not so fast bud, it's a WIP again :stuck_out_tongue: )
 
 ### Does it offer any speed improvements?
 None at all, it's designed to simply make it simpler and quicker to write JSS and integrate it into your React components using the jss-theme-reactor. It's also designed to provide a better, well-documented API. Also, this is a heavily minimalistic wrapper, with laser-like focus on minimalism and simplicity, so I expect zero performance tradeoff.

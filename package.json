@@ -1,6 +1,6 @@
 {
   "name": "react-kwik-jss",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0-alpha.2",
   "description": "Quickly write simple stylesheets in JSS for React.",
   "main": "index.js",
   "author": "Ibrahim Ansari (ansari.ibrahim1@gmail.com)",
@@ -11,7 +11,8 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack --progress",
-    "test": "ava"
+    "test": "ava",
+    "lint": "eslint -c .eslintrc.js ./**/*.ts ./**/*.tsx"
   },
   "repository": {
     "type": "git",
@@ -29,24 +30,25 @@
     "jss-theme-reactor": "^0.10.0"
   },
   "devDependencies": {
+    "@types/enzyme": "^2.8.0",
+    "@types/react": "^15.0.24",
+    "@types/react-addons-test-utils": "^0.14.18",
+    "@types/react-dom": "^15.5.0",
+    "@types/webpack": "^2.2.15",
     "ava": "^0.19.1",
-    "babel-eslint": "^7.2.2",
-    "babel-loader": "^6.4.1",
-    "babel-core": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-flow": "^6.23.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-0": "^6.24.1",
     "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "flow-bin": "^0.44.0",
+    "eslint-plugin-typescript": "^0.1.0",
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "typescript-eslint-parser": "^2.1.0",
     "webpack": "^2.4.1"
   },
   "peerDependencies": {
