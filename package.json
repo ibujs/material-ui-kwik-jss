@@ -1,6 +1,6 @@
 {
   "name": "react-kwik-jss",
-  "version": "1.0.0-alpha.4",
+  "version": "1.0.0-beta.1",
   "description": "Quickly write simple stylesheets in JSS for React.",
   "main": "index.js",
   "author": "Ibrahim Ansari (ansari.ibrahim1@gmail.com)",
