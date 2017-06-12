@@ -1,8 +1,9 @@
 {
   "name": "react-kwik-jss",
-  "version": "1.0.0-beta.1",
+  "version": "1.0.0-beta.2",
   "description": "Quickly write simple stylesheets in JSS for React.",
   "main": "index.js",
+  "module": "index.esm.js",
   "author": "Ibrahim Ansari (ansari.ibrahim1@gmail.com)",
   "license": "LGPL-3.0",
   "engines": {
@@ -10,7 +11,7 @@
   },
   "scripts": {
     "prepublish": "npm run build",
-    "build": "webpack --progress",
+    "build": "rollup -c rollup.config.js",
     "test": "ava",
     "lint": "eslint -c .eslintrc.js ./**/*.ts ./**/*.tsx"
   },
@@ -32,7 +33,6 @@
   "devDependencies": {
     "@types/react-addons-test-utils": "^0.14.18",
     "@types/react-dom": "^15.5.0",
-    "@types/webpack": "^2.2.15",
     "ava": "^0.19.1",
     "enzyme": "^2.8.2",
     "eslint": "^3.19.0",
@@ -41,13 +41,16 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-react": "^7.0.1",
     "eslint-plugin-typescript": "^0.1.0",
+    "lodash.pick": "^4.4.0",
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
-    "ts-loader": "^2.1.0",
+    "rollup": "^0.42.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
     "typescript": "^2.3.3",
-    "typescript-eslint-parser": "^3.0.0",
-    "webpack": "^2.6.1"
+    "typescript-eslint-parser": "^3.0.0"
   },
   "peerDependencies": {
     "react": ">= 15"
