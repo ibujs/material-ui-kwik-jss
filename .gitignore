@@ -1,6 +1,8 @@
 # Compiled bundle.
 index.js
 index.js.map
+index.esm.js
+index.esm.js.map
 
 # Logs
 logs
